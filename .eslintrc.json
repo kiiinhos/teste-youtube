@@ -21,6 +21,14 @@
         "react"
     ],
     "rules": {
-      "prettier/prettier":"error"
+      "prettier/prettier":"error",
+      "react/prop-types":"off",
+      "react/jsx-props-no-spreading":["error",{
+        "html":"ignore",
+        "custom":"ignore",
+        "exceptions":[""]
+      }],
+      "react/react-in-jsx-scope":"off"
+
     }
 }
